@@ -157,3 +157,17 @@ create table todo (id integer not null, description varchar(255), is_done bit no
 </plugin>
 
 ```
+
+Azure mysql admin user id - todouser
+
+Azure mysql admin password - Password@123
+
+RDS_HOSTNAME = todo-web-application-shapni.mysql.database.azure.com
+
+RDS_PORT = 3306
+
+RDS_DB_NAME = todos
+
+RDS_USERNAME = todouser@todo-web-application-shapni
+
+RDS_PASSWORD = Password@123

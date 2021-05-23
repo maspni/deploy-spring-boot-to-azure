@@ -36,6 +36,6 @@ public class HelloWorldController {
 	@GetMapping(path = "/hello-world-bean-list")
 	public List<HelloWorldBean> helloWorldBeanList() {
 		return Collections.nCopies((new Random()).nextInt(1000),
-					new HelloWorldBean("Hello World v2 " + instanceService.retrieveInstanceInfo()));
+					new HelloWorldBean("Hello World v3 " + instanceService.retrieveInstanceInfo()));
 	}
 }

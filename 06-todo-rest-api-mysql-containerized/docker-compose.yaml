@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   todo-rest-api:
-    image: in28min/todo-rest-api-mysql:1.0.0.RELEASE
+    image: shapni/todo-rest-api-mysql:1.0.0.RELEASE
     ports:
       - "5000:5000"
     restart: always
